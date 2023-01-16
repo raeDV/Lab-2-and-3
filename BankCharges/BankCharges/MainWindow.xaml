@@ -1,0 +1,20 @@
+﻿<Window x:Class="BankCharges.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BankCharges"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="balance" HorizontalAlignment="Left" Margin="420,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="checks" HorizontalAlignment="Left" Margin="420,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="monthlyCharge" HorizontalAlignment="Left" Margin="420,275,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Calculate" HorizontalAlignment="Left" Margin="420,216,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="306,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="en-ca" Text="Balance"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="306,151,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="en-ca" Text="No. of Checks"/><LineBreak/><Run Language="en-ca"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="306,277,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="en-ca" Text="Monthly Fee"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30"><Run Language="en-ca" Text="Bank Charges"/></TextBlock>
+
+    </Grid>
+</Window>

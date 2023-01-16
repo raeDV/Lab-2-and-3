@@ -1,0 +1,28 @@
+﻿<Window x:Class="TestScores.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestScores"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+	<Grid>
+		<TextBox x:Name="num1" HorizontalAlignment="Left" Margin="390,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+		<TextBox x:Name="num3" HorizontalAlignment="Left" Margin="390,152,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+		<TextBox x:Name="num2" HorizontalAlignment="Left" Margin="390,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+		<TextBox x:Name="result" HorizontalAlignment="Left" Margin="390,235,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+		<Button Content="Calculate Grade" HorizontalAlignment="Left" Margin="390,195,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+		<TextBlock HorizontalAlignment="Left" Margin="264,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top">
+			<Run Language="en-ca" Text="Grade 1"/>
+		</TextBlock>
+		<TextBlock HorizontalAlignment="Left" Margin="264,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top">
+			<Run Language="en-ca" Text="Grade 2"/>
+		</TextBlock>
+		<TextBlock HorizontalAlignment="Left" Margin="264,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top">
+			<Run Language="en-ca" Text="Grade 3"/>
+		</TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="264,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Final "/><Run Language="en-ca" Text="Grade"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30"><Run Language="en-ca" Text="Test Scores"/></TextBlock>
+
+    </Grid>
+</Window>
